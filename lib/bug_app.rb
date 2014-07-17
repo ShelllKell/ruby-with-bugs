@@ -48,8 +48,7 @@ class Bugs
   end
 
   def states(letter)
-    object = "C"
-    @states.select {|letter| letter[0] == object }
+    @states.select {|letter| letter[0] == "C" }
   end
 
 end
